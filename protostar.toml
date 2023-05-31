@@ -1,0 +1,6 @@
+[project]
+protostar-version = "0.12.0"
+
+[contracts]
+nft_profile_pics = ["src"]
+

@@ -1,0 +1,5 @@
+[package]
+name = "nft_profile_pics"
+version = "0.1.0"
+
+[dependencies]
