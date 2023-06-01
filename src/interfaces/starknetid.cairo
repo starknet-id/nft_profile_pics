@@ -1,5 +1,8 @@
 #[abi]
 trait StarknetId {
+
+    fn owner_of(starknet_id: felt252) -> starknet::ContractAddress;
+
     // write large data to the verifier
     fn set_extended_verifier_data(starknet_id: felt252, field: felt252, data: Array<felt252>);
 
